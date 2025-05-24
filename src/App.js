@@ -1,11 +1,13 @@
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import SignUp from './routes/SignUp';
+import SignUpHome from './routes/SignUpHome';
+import SignUpClient from './routes/SignUpClient';
 
 function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<SignUp />} />
+        <Route path="/" element={<SignUpHome />} />
+        <Route path="/signup/client" element={<SignUpClient />}></Route>
       </Routes>
     </Router>
   );

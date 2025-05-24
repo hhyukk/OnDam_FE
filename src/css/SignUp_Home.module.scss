@@ -1,0 +1,49 @@
+// 변수 정의 (선택사항)
+$main-bg: #ffe1d8;
+$button-bg: #ffcacb;
+$text-color: white;
+
+.SignUpHome_div {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .SignUpHome_main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 800px;
+    height: 700px;
+    background-color: $main-bg;
+    border-radius: 20px;
+
+    h1 {
+      font-size: 265%;
+      font-weight: 300;
+      text-align: center;
+    }
+
+    hr {
+      width: 62.6%;
+      border: 3px solid;
+      margin-top: 2.6%;
+      margin-bottom: 9.5%;
+    }
+
+    button {
+      background-color: $button-bg;
+      border: none;
+      color: $text-color;
+      width: 44%;
+      font-size: 24px;
+      padding: 1% 0;
+      margin-bottom: 2.7%;
+      border-radius: 30px;
+    }
+
+    span {
+      font-size: 13px;
+    }
+  }
+}
