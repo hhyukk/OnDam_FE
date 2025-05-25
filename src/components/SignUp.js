@@ -18,7 +18,7 @@ function SignUp() {
             <input type="password" required />
           </div>
           <div>
-            <span>아이디</span>
+            <span>이름</span>
             <input type="text" required />
           </div>
           <div>
@@ -37,7 +37,7 @@ function SignUp() {
           <div>
             <span>전화번호</span>
             <div className={styles.phone_number}>
-              <input />
+              <input type="text" required />
               <button>인증 요청</button>
             </div>
           </div>
@@ -50,14 +50,14 @@ function SignUp() {
           <div>
             <span>주민등록번호</span>
             <div className={styles.resident_registration_number}>
-              <input></input>
+              <input type="text" required></input>
               <span>-</span>
-              <input></input>
+              <input type="password" required></input>
             </div>
           </div>
           <div>
             <span>주소</span>
-            <input></input>
+            <input type="text" required></input>
           </div>
           <button className={styles.signup_button}>가입하기</button>
         </form>
