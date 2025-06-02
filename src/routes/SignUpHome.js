@@ -6,6 +6,9 @@ function SignUpHome() {
   const handleClientSignUp = () => {
     navigate('/signup/client');
   };
+  const handleCounselorSignUp = () => {
+    navigate('/signup/counselor');
+  };
   return (
     <div className={styles.SignUpHome_div}>
       <div className={styles.SignUpHome_main}>
@@ -15,7 +18,7 @@ function SignUpHome() {
         </h1>
         <hr />
         <button onClick={handleClientSignUp}>내담자로 가입할래요</button>
-        <button>상담사로 가입할래요</button>
+        <button onClick={handleCounselorSignUp}>상담사로 가입할래요</button>
         <span>이미 아이디가 있다면? 로그인 하러가기</span>
       </div>
     </div>

@@ -24,16 +24,17 @@ $text-color: white;
       width: 500px;
       border: 3px solid;
     }
-    .user_profile {
-      font-size: 70px;
+    .user_profile_div,
+    img {
+      width: 70px;
+      height: 70px;
       background-color: white;
       border-radius: 50%;
+      .profile_default {
+        font-size: 70px;
+      }
     }
 
-    //
-    //
-    //
-    //
     form {
       height: auto;
       div {
@@ -120,4 +121,9 @@ button {
   border: none;
   border-radius: 5px;
   color: white;
+}
+.phone_button:disabled {
+  background-color: #c7c7c7;
+  color: white;
+  cursor: not-allowed;
 }
